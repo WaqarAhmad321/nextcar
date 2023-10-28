@@ -1,4 +1,4 @@
-import { CarCard, CustomFilter, Hero, SearchBar } from "@/components";
+import { CarCards, CustomFilter, Hero, SearchBar } from "@/components";
 import { fetchCars } from "@/libs";
 
 export default async function Home() {
@@ -27,7 +27,7 @@ export default async function Home() {
           <section>
             <div className="home__cars-wrapper">
               {allCars.map((car) => (
-                <CarCard key={car} car={car} />
+                <CarCards key={car} car={car} />
               ))}
             </div>
           </section>
