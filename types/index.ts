@@ -42,6 +42,6 @@ export interface CarDetailsProps {
 }
 
 export interface CarImagesProps {
-  src: string;
+  src: () => string;
   alt: string;
 }
