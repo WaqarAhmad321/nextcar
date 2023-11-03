@@ -1,7 +1,8 @@
-import Navbar from "@/components/Navbar";
 import "./globals.css";
-import Footer from "@/components/Footer";
 import { Metadata } from "next";
+
+import { Navbar } from "@/components";
+import { Footer } from "@/components";
 
 export const metadata: Metadata = {
   title: "NextCar - Showcase of your next car!",

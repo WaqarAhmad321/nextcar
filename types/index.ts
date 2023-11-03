@@ -45,3 +45,26 @@ export interface CarImagesProps {
   src: () => string;
   alt: string;
 }
+
+export interface FilterProps {
+  model: string;
+  manufacturer: string;
+  year: number;
+  fuel: string;
+  limit: number;
+}
+
+export interface OptionsProps {
+  title: string;
+  value: string;
+}
+
+export interface CustomFilterOptionsProps {
+  title: string;
+  options: OptionsProps[];
+}
+
+export interface ShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
+}
